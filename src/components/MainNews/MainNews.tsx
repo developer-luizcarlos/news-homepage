@@ -5,7 +5,7 @@ import { mainNews } from "@/Data/Data";
 
 const mainNewsComponent = mainNews.map((element: any) => {
     return <div key={element.id} className="grid grid-cols-2 gap-2 h-60 overflow-hidden my-4">
-      <img src={element.image} alt="image" className="w-40 h-full object-cover md:w-full" />
+      <img src={element.image} alt="image" className="w-52 h-full object-cover md:w-full" />
       <div className="h-full flex flex-col justify-around gap-1">
         <h2 className="text-4xl text-softRed font-semibold md:text-3xl">
           {element.id < 10 ? "0" + element.id : element.id}
