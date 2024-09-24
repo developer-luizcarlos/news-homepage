@@ -1,9 +1,15 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
 import Image from "next/image"
+import { MouseEventHandler } from "react"
 
-export default function Header() {
+interface HeaderInterface {
+    eventClick?: MouseEventHandler;
+}
+
+export default function Header(props: HeaderInterface) {
     return (
         <header className="w-full h-24">
             <div className="w-[95%] h-full py-10 flex items-center justify-between m-auto md:w-[80%]">
@@ -22,7 +28,7 @@ export default function Header() {
                     <Link href="/trending" className="capitalize text-darkGrayishBlue font-medium hover:text-softRed hover:duration-200 hover:ease-in-out">Trending</Link>
                     <Link href="/categories" className="capitalize text-darkGrayishBlue font-medium hover:text-softRed hover:duration-200 hover:ease-in-out">Categories</Link>
                 </ul>
-                <button className="md:hidden">
+                <button className="md:hidden" onClick={props.eventClick}>
                     <Image
                         width={50}
                         height={50}
