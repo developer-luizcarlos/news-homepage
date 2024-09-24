@@ -18,19 +18,19 @@ const lastNews: LastNews[] = [
 
 const mainNews: MainNews[] = [{
     id: 1,
-    image: "/assets/images/image-retro-pcs.jpg",
+    image: "./assets/images/image-retro-pcs.jpg",
     title: "Reviving Retro PCs",
     resume: "What happens when old PCs are given modern upgrades?"
 },
 {
     id: 2,
-    image: "/assets/images/image-top-laptops.jpg",
+    image: "./assets/images/image-top-laptops.jpg",
     title: "Top 10 Laptops of 2024",
     resume: "Our best picks for various needs and budgets"
 },
 {
     id: 3,
-    image: "/assets/images/image-gaming-growth.jpg",
+    image: "./assets/images/image-gaming-growth.jpg",
     title: "The Growth of Gaming",
     resume: "How the pandemic has sparkedd fresh opportunities."
 }

@@ -21,7 +21,7 @@ export default function Home() {
       />
       <div className="w-[95%] m-auto py-8 flex flex-col gap-7 md:w-[80%] md:flex-row">
         <section className="flex flex-col justify-between  gap-6 md:h-full">
-          <img src="/assets/images/image-web-3-desktop.jpg" alt="" className="w-full h-80 object-cover" />
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" className="w-full h-80 object-cover" />
           <article className="w-full text-justify flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
             <div className="w-full">
               <h1 className="text-veryDarkBlue font-bold text-5xl">The Bright <br />Future of Web 3.0?
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-dvw h-dvh bg-slate-800 opacity-40"></div>
         <aside className="absolute top-0 right-0 w-80 h-dvh bg-white z-50 p-4 flex flex-col gap-10">
           <div className="w-full flex items-center justify-end py-3 px-2">
-            <img src="/assets/images/icon-menu-close.svg" alt="" className="cursor-pointer" onClick={() => setDisplayMenu(false)} />
+            <img src="./assets/images/icon-menu-close.svg" alt="" className="cursor-pointer" onClick={() => setDisplayMenu(false)} />
           </div>
           <nav className="flex flex-col gap-4">
             <Link href="/" className="capitalize text-darkGrayishBlue text-2xl font-medium hover:text-softRed hover:duration-200 hover:ease-in-out">home</Link>

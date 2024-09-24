@@ -17,7 +17,7 @@ export default function Header(props: HeaderInterface) {
                     <Image
                         width={100}
                         height={100}
-                        src="/assets/images/logo.svg"
+                        src="./assets/images/logo.svg"
                         alt="logo"
                     />
                 </Link>
@@ -32,7 +32,7 @@ export default function Header(props: HeaderInterface) {
                     <Image
                         width={50}
                         height={50}
-                        src="/assets/images/icon-menu.svg"
+                        src="./assets/images/icon-menu.svg"
                         alt="open menu"
                     />
                 </button>
